@@ -2,7 +2,7 @@
 
 This is a very, very (very) crude PoC that will attempt to build the kernel module for Falco by any means necessary.
 
-Basically, it will download the base image for your distro, spawn a container inside itself, download drivers & compilers and build the driver.
+Basically, it will download the base image for your distro, spawn a container inside itself, download kernel headers and compilers and build the driver.
 
 For now I PoC'd Ubuntu, Fedora and CentOS 7.
 
